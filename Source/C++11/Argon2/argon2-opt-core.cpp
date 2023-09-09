@@ -11,7 +11,8 @@
  */
 
 
-#include <stdint.h>
+// #include <stdint.h>
+#include <cstdint>
 
 
 #if !defined(_MSC_VER)
@@ -29,8 +30,10 @@
 
 
 
-#include "blake2.h"
-#include "blamka-round-opt.h"
+// #include "blake2.h"
+// #include "blamka-round-opt.h"
+#include "../Blake2/blake2.h"
+#include "../Blake2/blamka-round-opt.h"
 
 
 

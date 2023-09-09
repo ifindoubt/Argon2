@@ -15,6 +15,8 @@
 #ifndef __ARGON2_CORE_H__
 #define __ARGON2_CORE_H__
 
+#include <inttypes.h>
+
 /*************************Argon2 internal constants**************************************************/
 
 /* Version of the algorithm */

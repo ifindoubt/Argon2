@@ -16,7 +16,8 @@
 #ifndef __ARGON2_CORE_H__
 #define __ARGON2_CORE_H__
 
-#include <cstring> 
+#include <cstring>
+#include <cstdint>
 
 /*************************Argon2 internal constants**************************************************/
 

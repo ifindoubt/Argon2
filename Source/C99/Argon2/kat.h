@@ -13,6 +13,8 @@
 #ifndef __ARGON2_KAT_H__
 #define __ARGON2_KAT_H__
 
+#include <inttypes.h>
+
 
 /*
  * Initial KAT function that prints the inputs to the file

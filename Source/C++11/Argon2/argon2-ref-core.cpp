@@ -10,7 +10,8 @@
  */
 
 
-#include <stdint.h>
+// #include <stdint.h>
+#include <cstdint>
 
 
 #include "argon2.h"
@@ -18,9 +19,12 @@
 #include "kat.h"
 
 
-#include "blamka-round-ref.h"
-#include "blake2-impl.h"
-#include "blake2.h"
+// #include "blamka-round-ref.h"
+// #include "blake2-impl.h"
+// #include "blake2.h"
+#include "../Blake2/blamka-round-ref.h"
+#include "../Blake2/blake2-impl.h"
+#include "../Blake2/blake2.h"
 
 
 const char* ARGON2_KAT_FILENAME = "kat-argon2-ref.log";

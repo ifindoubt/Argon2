@@ -10,17 +10,22 @@
  */
 
 
-#include <stdio.h>
-#include <stdint.h>
-#include <inttypes.h>
+// #include <stdio.h>
+// #include <stdint.h>
+// #include <inttypes.h>
+#include <cstdio>
+#include <cstdint>
+#include <cinttypes>
 #include <random>
 #include <cstring>
 #include <algorithm>
 #include <vector>
 #include <string>
 
-#include "time.h"
-#include "argon2.h"
+// #include "time.h"
+#include <ctime>
+// #include "argon2.h"
+#include "../Argon2/argon2.h"
 
 
 void fatal(const char *error) {

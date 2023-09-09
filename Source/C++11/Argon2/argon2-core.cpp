@@ -11,7 +11,8 @@
 
 
 
-#include <inttypes.h>
+// #include <inttypes.h>
+#include <cinttypes>
 #include <vector>
 #include <thread>
 #include <cstring>
@@ -21,8 +22,10 @@
 #include "kat.h"
 
 
-#include "blake2.h"
-#include "blake2-impl.h"
+// #include "blake2.h"
+// #include "blake2-impl.h"
+#include "../Blake2/blake2.h"
+#include "../Blake2/blake2-impl.h"
 
 
 block operator^(const block& l, const block& r) {

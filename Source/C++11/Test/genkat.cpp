@@ -9,7 +9,8 @@
  * this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
  */
 
-#include "kat.h"
+// #include "kat.h"
+#include "../Argon2/kat.h"
 
 int main(int argc, char *argv[]) {
     const char *type = (argc > 1) ? argv[1] : "i";

@@ -14,7 +14,9 @@
 #define __ARGON2_H__
 
 #include <cstddef>
-#include <limits.h>
+// #include <limits.h>
+#include <climits>
+#include <cstdint>
 
 /************************* Constants to enable Known Answer Tests (KAT)  **************************************************/
 

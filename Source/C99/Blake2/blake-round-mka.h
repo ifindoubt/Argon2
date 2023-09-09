@@ -3,6 +3,8 @@
 #ifndef __BLAKE_ROUND_MKA_H__
 #define __BLAKE_ROUND_MKA_H__
 
+#include <inttypes.h>
+
 
 #define G(a,b,c,d) \
 	a = fBlaMka(a, b) ; \

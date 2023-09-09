@@ -11,16 +11,22 @@
 
 #include <vector>
 
-#include <stdio.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
+// #include <stdio.h>
+// #include <stdint.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <time.h>
+#include <cstdio>
+#include <cstdint>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
 #ifdef _MSC_VER
 #include <intrin.h>
 #endif
 
-#include "argon2.h"
+// #include "argon2.h"
+#include "../Argon2/argon2.h"
 
 static uint64_t rdtsc(void) {
 #ifdef _MSC_VER

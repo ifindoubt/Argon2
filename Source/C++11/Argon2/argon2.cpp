@@ -10,7 +10,8 @@
  */
 
 
-#include <stdint.h> 
+// #include <stdint.h>
+#include <cstdint>
 
 
 #include <map>

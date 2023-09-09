@@ -15,9 +15,11 @@
 #define __BLAKE2_IMPL_H__
 
 #include <stdint.h>
+#include <string.h>
 
 /* Argon2 Team - Begin Code */
-#include "brg-endian.h"
+// #include "brg-endian.h"
+#include "../Common/brg-endian.h"
 
 #if defined(PLATFORM_BYTE_ORDER) && (PLATFORM_BYTE_ORDER == IS_LITTLE_ENDIAN) && !defined(NATIVE_LITTLE_ENDIAN)
 #define NATIVE_LITTLE_ENDIAN

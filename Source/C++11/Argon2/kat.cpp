@@ -12,7 +12,8 @@
 
 
 #include <cstdio>
-#include <inttypes.h>
+// #include <inttypes.h>
+#include <cinttypes>
 
 #include <string>
 

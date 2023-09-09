@@ -15,6 +15,7 @@
 
 #include "stddef.h"
 #include "stdbool.h"
+#include <inttypes.h>
 
 /************************* Constants to enable Known Answer Tests (KAT)  **************************************************/
 /* Enable ARGON2_KAT */
