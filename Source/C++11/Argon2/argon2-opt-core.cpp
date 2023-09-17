@@ -28,10 +28,6 @@
 #include "argon2-core.h"
 #include "kat.h"
 
-
-
-// #include "blake2.h"
-// #include "blamka-round-opt.h"
 #include "../Blake2/blake2.h"
 #include "../Blake2/blamka-round-opt.h"
 

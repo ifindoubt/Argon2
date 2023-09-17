@@ -10,7 +10,6 @@
  */
 
 
-// #include <stdint.h>
 #include <cstdint>
 
 
@@ -18,10 +17,6 @@
 #include "argon2-core.h"
 #include "kat.h"
 
-
-// #include "blamka-round-ref.h"
-// #include "blake2-impl.h"
-// #include "blake2.h"
 #include "../Blake2/blamka-round-ref.h"
 #include "../Blake2/blake2-impl.h"
 #include "../Blake2/blake2.h"

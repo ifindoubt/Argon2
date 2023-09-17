@@ -21,9 +21,6 @@
 #include "argon2-core.h"
 #include "kat.h"
 
-
-// #include "blake2.h"
-// #include "blake2-impl.h"
 #include "../Blake2/blake2.h"
 #include "../Blake2/blake2-impl.h"
 

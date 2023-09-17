@@ -16,7 +16,7 @@
 #include <string.h>
 
 #include "time.h"
-#include "argon2.h"
+#include "../Argon2/argon2.h"
 #ifdef _MSC_VER
 #include "intrin.h"
 #endif 
