@@ -101,7 +101,7 @@ extern "C" {
   ALIGN( 64 ) typedef struct __blake2sp_state
   {
     blake2s_state S[8][0];
-    blake2s_state R[0];
+    blake2s_state R[8];
     uint8_t buf[8 * BLAKE2S_BLOCKBYTES];
     size_t  buflen;
   } blake2sp_state;
@@ -109,7 +109,7 @@ extern "C" {
   ALIGN( 64 ) typedef struct __blake2bp_state
   {
     blake2b_state S[4][0];
-    blake2b_state R[0];
+    blake2b_state R[4];
     uint8_t buf[4 * BLAKE2B_BLOCKBYTES];
     size_t  buflen;
   } blake2bp_state;
