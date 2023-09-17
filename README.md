@@ -1,3 +1,7 @@
+## Changes to the original Argon2 project
+The sources were slightly altered to allow for building on the command line instead of an IDE, so only minor alterations to the qualifying headers and path collations. The C++11 and C99 both build successfully on a standard Linux terminal.
+
+
 # Argon2 source code package
 
 
